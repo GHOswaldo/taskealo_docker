@@ -1,0 +1,10 @@
+-- Crear una vista para desencriptar Password automáticamente en SELECT
+CREATE OR REPLACE VIEW USUARIOS_VISTA AS
+SELECT
+    IDUsuario,
+    Nombre,
+    Usuario,
+    AES_DECRYPT(Password, '4h8$JzL3m9fHk2@vPqWs6uYtNc0bG1Tx') AS Password,
+    CURP,
+    IDRol
+FROM USUARIOS;

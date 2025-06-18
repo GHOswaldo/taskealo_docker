@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gateway - Inserción y consultas</title>
+</head>
+<body>
+    <h1>Inserción de datos en la base de datos maestra</h1>
+    <form action="gateway.php" method="POST">
+        <label for="data">Dato:</label>
+        <input type="text" id="data" name="data" required>
+        <button type="submit" name="insert">Insertar</button>
+    </form>
+
+    <h1>Consulta de datos desde las bases de datos esclavas</h1>
+    <form action="gateway.php" method="GET">
+        <button type="submit" name="consult">Consultar</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,68 @@
+public_html/
+├── Administrador/
+│   ├── Carreras/
+│   │   ├── agregar_carrera.php
+│   │   ├── Carreras.php
+│   │   ├── editar_carrera.php
+│   │   ├── eliminar_carrera.php
+│   ├── Grupos/
+│   │   ├── agregar_alumnos_grupo.php
+│   │   ├── crear_grupo.php
+│   │   ├── eliminar_alumno_grupo.php
+│   │   ├── eliminar_grupo.php
+│   │   ├── gestionar_alumnos_grupo.php
+│   │   ├── Grupos.php
+│   ├── Materias/
+│   │   ├── agregar_materia.php
+│   │   ├── editar_materia.php
+│   │   ├── eliminar_materia.php
+│   │   ├── Materias.php
+│   ├── Roles/
+│   │   ├── agregar_rol.php
+│   │   ├── editar_rol.php
+│   │   ├── eliminar_rol.php
+│   │   ├── Roles.php
+│   ├── Usuarios/
+│   │   ├── agregar_usuario.php
+│   │   ├── editar_usuario.php
+│   │   ├── eliminar_usuario.php
+│   │   ├── procesar_editar_usuario.php
+│   │   ├── Usuarios.php
+│   ├── dashboard_administrador.php
+│   ├── sidebar_administrador.php
+├── Alumno/
+│   ├── Tareas/
+│   │   ├── listar_tareas_alumno.php
+│   ├── Avisos/
+│   │   ├── listar_avisos_alumno.php
+│   ├── sidebar_alumno.php
+│   ├── dashboard_alumno.php
+├── Maestro/
+│   ├── Tareas/
+│   │   ├── agregar_tarea.php
+│   │   ├── agregar_tarea_form.php
+│   │   ├── editar_tarea.php
+│   │   ├── eliminar_tarea.php
+│   │   ├── listar_tareas_maestro.php
+│   ├── Avisos/
+│   │   ├── actualizar_aviso.php
+│   │   ├── agregar_aviso.php
+│   │   ├── agregar_aviso_form.php
+│   │   ├── editar_aviso.php
+│   │   ├── eliminar_aviso.php
+│   │   ├── listar_avisos_maestro.php
+│   │   ├── procesar_publicar_aviso.php
+│   │   ├── publicar_aviso.php
+│   ├── sidebar_maestro.php
+│   ├── dashboard_maestro.php
+├── src/
+│   ├── img/
+│   │   ├── logo.png
+│   ├── styles/
+│   │   ├── stylesA.css
+│   ├── conexion_escritura.php
+│   ├── conexion_lectura.php
+│   ├── encryption_key.php
+├── index.html
+├── login.php
+├── logout.php

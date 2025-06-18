@@ -1,0 +1,5 @@
+1. Abrir Docker Desktop.
+2. Acceder al directorio actual desde la terminal (cmd).
+3. Ejecutar docker-compose up -d
+4. Acceder al contenedor con el puerto 8080:80
+5. Hacer pruebas.
